@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #e7e7e7;
+  font-family: "Readex Pro", Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1, h2, p {
+  font-weight: normal;
+}
+
+header {
+  background-color: #B8F96B;
+  color: black;
+  padding: 10px;
+}
+
+#form {
+  margin-top: 7.5%;
+}
+
+#form :is(h1, h2) {
+  margin: 10px 0px;
+}
+
+form input {
+  font-family: "Readex Pro", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 10px;
+}
+
+form input.nome, form input.email {
+  width: 300px;
+  height: 15px;
+  margin: 10px 0px;
+}
+
+.btn-entrar {
+  background-color: #B8F96B;
+  color: black;
+  border: 5px solid #B8F96B;
+  cursor: pointer;
+  padding: 10px 135px; 
+}
+
+.btn-entrar:hover {
+  background-color: black;
+  color: #B8F96B;
+}
+
+.copy p {
+  margin: 10px 0px;
+}
+
+@media (max-width: 425px) {
+  form input.nome, form input.email {
+      width: 200px;
+  }
+
+  form input.btn-entrar {
+      padding: 10px 85px; 
+  }
+}

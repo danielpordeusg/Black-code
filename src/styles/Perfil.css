@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #e7e7e7;
+  font-family: "Readex Pro", Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1, h2, p {
+  font-weight: normal;
+}
+
+header {
+  background-color: #B8F96B;
+  color: black;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+li.logo, li.nome, li.email {
+  font-size: 24px;
+}
+
+#profile {
+  background-color: white;
+  color: black;
+  padding: 30px 0px;
+  margin: 30px 0px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  grid-gap: 40px;
+  margin: 0px 10px;
+}
+
+.icon, .infos, .change {
+  padding: 10px;
+  background-color: #B8F96B;
+  color: black;
+  border-radius: 10px;
+}
+
+.infos :is(h3) {
+  margin: 10px 0px;
+  font-weight: normal;
+}
+
+.icon > i.usuario {
+  background-color: #B8F96B;
+  margin: 10px 0px;
+  font-size: 130px;
+  color: black;
+}
+
+.icon :is(h3) {
+  font-weight: normal;
+}
+
+.btn-exit, .btn-config {
+  background-color: #e7e7e7;
+  color: black;
+  margin: 10px 0px;
+  padding: 10px 78px;
+  border: 2px solid black;
+  font-size: 16px;
+  font-family: "Readex Pro", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.btn-config:hover, .btn-exit:hover {
+  background-color: black;
+  color: #e7e7e7;
+  border: 2px solid #e7e7e7;
+}
+
+.page-title {
+  margin: 20px 0px;
+}
+
+.change h2 {
+  font-weight: normal;
+  margin: 10px 0px;
+}
+
+form :is(.config1, .config2, .config3) {
+  width: 300px;
+  height: 10px;
+  font-size: 16px;
+  font-family: "Readex Pro", Arial, Helvetica, sans-serif;
+  padding: 10px;
+  margin: 5px 0px;
+}
