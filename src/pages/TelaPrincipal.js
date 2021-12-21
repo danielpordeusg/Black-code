@@ -286,7 +286,6 @@ function TelaPrincipal() {
               <a
               key={link.linkTitle}
               href={link.link}
-              target="_blank"
               >
                 {link.linkTitle}
               </a>
